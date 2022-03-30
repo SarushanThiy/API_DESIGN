@@ -25,13 +25,18 @@ Column-Orientated Database
 GET (‘/houseowners’)
 
 - this request will get a response of all the house owners data and display on the page successfully with a 200 status.
-  Response status: 200
-  Content type: application/json
-  2:
-  POST (‘/houseowners’)
+- Response status: 200
+- Content type: application/json
+
+2:
+POST (‘/HOUSEOWNERS’)
+
 - this request will add a new house owner to the database, responding with 201, which means something has been made successfully.
-  Response status: 201.
-  Content type: application/json
-  3:
-  GET (‘/houseowners/owner’)
-- this request will return only one specific owner responding with a 200 status, displaying the information on the page successfully.
+- Response status: 201.
+- Content type: application/json
+
+3:
+GET (‘/HOUSEOWNERS/OWNER’)
+
+- this request will return only one specific owner
+- responding with a 200 status, displaying the information on the page successfully.
